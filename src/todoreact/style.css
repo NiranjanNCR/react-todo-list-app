@@ -1,0 +1,89 @@
+*{
+background-color: rgb(39, 37, 37);
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+.child-container{
+    /* border: 1px  solid red; */
+    height: 20rem;
+    width: 16rem;
+    text-align: center;
+}
+.child-container figure{
+    font-size: 5rem;
+    margin-top: -6rem;
+    margin-bottom: 1rem;
+}
+.add-item input{
+    height:2rem;
+    width: 15rem;
+    /* border: 1px solid red; */
+    background-color: white;
+    font-size: 1.2rem;
+}
+
+.add-item i{
+    color: rgb(87, 84, 84);
+    margin-left: -1.5rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+.showItems h3{
+    height: 2rem;
+    width: 15rem;
+    /* border: 1px solid red; */
+    background-color: rgb(4, 134, 248);
+    color: white;
+    margin-bottom: -1.5rem;
+display: flex;
+padding-top: .5rem;
+padding-left: .5rem;
+margin-left: .2rem;
+}
+
+.eachItem .add-btn{
+    color: rgb(5, 250, 136);
+    margin-top: 1.5rem;
+    margin-left: -2rem;
+    background-color:transparent;
+    font-size: 1.4rem;
+}
+.eachItem .add-btn1{
+    color: rgb(250, 5, 46);
+    margin-top: 1.5rem;
+    margin-left: -3rem;
+    background-color:transparent;
+    font-size: 1.4rem;
+    /* margin-left: 2rem; */
+}
+.eachItem{
+    display: flex;
+/* gap: -2rem; */
+
+}
+ .effect04 {
+     color: white;
+     background-color: transparent;
+    }
+
+    .show-item button{
+         background-color: rgb(5, 100, 243);
+         height: 2rem;
+         width: 8rem;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-left: 3.5rem;
+         margin-right: 3.5rem;
+         border: none;
+         margin-top: 2rem;
+    }
+    .show-item span{
+        background-color: transparent;
+        font-size: 1rem;
+    }
